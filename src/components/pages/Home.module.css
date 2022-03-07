@@ -1,0 +1,59 @@
+.home_container{
+  margin-top: 140px;
+  margin-left: 75px;
+}
+
+.home_container h1{
+  font-size: 2em;
+}
+
+.home_container h1 span{
+  color: blue;
+  padding: 0 .2em;
+  background-color: blue;
+}
+
+/*.home_container img{
+  width: 350px;
+  margin: 2em 0;
+}*/
+
+.star{
+ width: 50px;
+ filter: invert(94%) sepia(98%) saturate(7495%) hue-rotate(358deg) brightness(95%) contrast(117%);
+}
+
+.butt{
+  margin-left: 320px;
+  margin-top: -30px;
+}
+
+.wishWallet{
+  font-size: 2em;
+  color: white;
+}
+
+.logo{
+  width: 150px;
+  margin-left: 450px;
+  margin-top: -100px;
+}
+
+.subname{
+  margin-left: 310px;
+  margin-top: 30px;
+}
+
+.token{
+  margin-left: 340px;
+  margin-top: 70px;
+}
+
+.balance{
+  margin-left: 640px;
+  margin-top: -20px;
+}
+
+.criptos{
+  padding-left: 300px;
+}

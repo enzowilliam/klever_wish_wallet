@@ -1,0 +1,53 @@
+.app_container {
+  flex-direction: column;
+  padding: 1rem;
+  padding-right: -200px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: right;
+  font-size: 32px;
+}
+
+.token{
+  margin-left: 42px;
+}
+
+.editbt{
+  
+  border: none;
+  background: #13152a;
+}
+
+.button{
+  padding-left: 254px;
+  padding-bottom: 0px;
+}
+
+.balance{
+  padding-left: 250px;
+}
+
+
+/*
+
+
+
+form {
+  display: flex;
+  gap: 20px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}*/

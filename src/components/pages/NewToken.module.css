@@ -38,11 +38,6 @@
   color: gray;
 }
 
-/*.home_container img{
-  width: 350px;
-  margin: 2em 0;
-}*/
-
 .star{
  width: 50px;
  filter: invert(94%) sepia(98%) saturate(7495%) hue-rotate(358deg) brightness(95%) contrast(117%);
@@ -64,21 +59,6 @@
 .logo{
   width: 150px;
 }
-
-/*.returnButton{
-    background:   #363636;
-    border-radius: 5px;
-    color: #FFFFFF;
-    padding: 10px;
-    text-decoration: none;
-    cursor: pointer;
-    text-align: center;
-    margin-left: 300px;
-    margin-top: -60px;
-  }
-.returnButton:hover{
-  color: #13152a;
-}*/
 
 .pageType{
   margin-right: 285px;

@@ -2,10 +2,9 @@
   "criptos": [
     {
       "name": "klv",
-      "balanceValue": "10,250.50",
+      "balanceValue": "10000",
       "token": [],
-      "balance": 0,
-      "id": 1
+      "id": 2
     }
   ]
 }

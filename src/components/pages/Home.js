@@ -34,32 +34,30 @@ function Home() {
       .catch(err => console.log(err))
   }, [])
 
-  
-
-
   return (
     <section className={styles.home_container}>
       <div>
         <img className={styles.logo} src={logo} alt="logo" />
         <div className={styles.subname}>
-        <h1 className={styles.wishWallet}>
-          <img src={shooting_star} alt="star" className={styles.star} />
-          Wish Wallet{' '}
-        </h1>
+          <h1 className={styles.wishWallet}>
+            <img src={shooting_star} alt="star" className={styles.star} />
+            Wish Wallet
+          </h1>
         </div>
-        <div className={styles.butt} >
-        <LinkButton to="/newtoken" text="Add Token" />
+        <div className={styles.butt}>
+          <LinkButton to="/newtoken" text="Add Token" />
         </div>
-       
+
         <h3 className={styles.token}>Token</h3>
         <h3 className={styles.balance}>Balance</h3>
       </div>
       <Row customClass="start">
         {criptos.length > 0 &&
-          criptos.map((cripto) => (
-            <TokenCard className={styles.criptos}
+          criptos.map(cripto => (
+            <TokenCard
+              className={styles.criptos}
               id={cripto.id}
-              name={cripto.name} 
+              name={cripto.name}
               balanceValue={cripto.balanceValue}
             />
           ))}

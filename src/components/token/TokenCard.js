@@ -1,9 +1,8 @@
 import styles from './TokenCard.module.css'
 import { FiEdit} from 'react-icons/fi'
-import {Link} from 'react-router-dom'
 import {useState} from 'react'
 
-function TokenCard({ id, name, balanceValue, handleRemove }) {
+function TokenCard({ id, name, balanceValue, }) {
 
   const [showTokenForm, setShowTokenForm] = useState(false)
 
@@ -40,12 +39,3 @@ function toggleTokenForm() {
 }
 
 export default TokenCard
-
-//apenas usarei name e balance e o handleRemove é para remover que terá que ser adiconado na pagina editToken*/
-
-
-
-
-/*<Link onClick={toggleTokenForm} to ={`/edittoken/${id}`} className={styles.edit}>
-                <FiEdit/>
-              </Link>*/

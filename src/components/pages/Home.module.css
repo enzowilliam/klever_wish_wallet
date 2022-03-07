@@ -13,11 +13,6 @@
   background-color: blue;
 }
 
-/*.home_container img{
-  width: 350px;
-  margin: 2em 0;
-}*/
-
 .star{
  width: 50px;
  filter: invert(94%) sepia(98%) saturate(7495%) hue-rotate(358deg) brightness(95%) contrast(117%);

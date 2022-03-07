@@ -44,4 +44,4 @@ function TokenForm({ handleSubmit, btnText, criptoData,criptoEdited,balanceEdite
 }
 
 export default TokenForm
-/*deletar a categoria select que é referente ao projeto do curso, deletando tambem os arquivos referentes a parte select */
+

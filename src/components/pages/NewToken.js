@@ -11,7 +11,7 @@ function NewToken() {
   const history = useNavigate()
 
   function createToken(cripto) {
-    // iniatialize tokens and ballance
+
     cripto.token = []
     cripto.balance = 0
 
@@ -25,7 +25,8 @@ function NewToken() {
       .then((resp) => resp.json())
       .then((data) => {
           console.log(data)
-          //redirect
+
+          
           history('/',{state:{message: 'token adicionada com sucesso'}}) 
         })
       .catch((err) => console.log(err))

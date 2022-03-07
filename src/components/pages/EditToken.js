@@ -114,14 +114,4 @@ function EditToken() {
 }
 
 export default EditToken
-/*
-  this.removeToken = (index) => {
-      const criptos = this.state.criptos.slice();
-      criptos.splice(index, 1);
-      this.setState({criptos});
-  }
 
-
-onClick={removeToken} 
-
-*/
